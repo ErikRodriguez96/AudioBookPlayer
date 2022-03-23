@@ -8,10 +8,8 @@ public class Book implements Parcelable {
     private String title;
     private String author;
 
-    // Default book
     public Book(){}
 
-    // The one you'll most likely use
     public Book(String title, String author){
         this.title = title;
         this.author = author;

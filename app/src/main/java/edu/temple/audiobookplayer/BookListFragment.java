@@ -59,7 +59,6 @@ public class BookListFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
         Bundle savedInstanceState) {
         ListView listView = (ListView)inflater.inflate(R.layout.fragment_book_list, container, false);
-//        ListView listView = v.findViewById(R.id.listView);
 
         listView.setAdapter(new BookListAdapter(getContext(), books));
 
