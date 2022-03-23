@@ -6,8 +6,6 @@ import androidx.fragment.app.FragmentManager;
 
 import android.os.Bundle;
 
-import java.util.ArrayList;
-
 public class MainActivity extends AppCompatActivity implements BookListFragment.BookSelectedInterface {
 
     FragmentManager fragmentManager;
@@ -29,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements BookListFragment.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_activity);
+        setContentView(R.layout.activity_main);
 
         for(int i = 0; i < titles.length; i++){
         myBooks.add(new Book(titles[i], authors[i]));
