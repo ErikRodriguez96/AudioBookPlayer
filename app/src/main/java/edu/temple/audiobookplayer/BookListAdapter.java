@@ -1,7 +1,4 @@
-package edu.temple.audiobookplayer
-
-
-package edu.temple.bookshelf;
+package edu.temple.audiobookplayer;
 
 import androidx.recyclerview.widget.RecyclerView;
 
