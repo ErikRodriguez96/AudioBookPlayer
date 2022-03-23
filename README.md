@@ -10,5 +10,5 @@ Now we can see that in landscape mode, we can view the list and a book at the sa
 ![lab7-3](https://user-images.githubusercontent.com/89549679/159746904-087c1fb6-33a4-4bef-bd40-d36e538ffde5.png)
 With this book still selected, switch back to portrait mode.
 ![lab7-4](https://user-images.githubusercontent.com/89549679/159746916-47f22ee3-f144-40de-890a-b87a324e41ed.png)
-You will see that it retains state information and you are the portrait focus/details frame for your selected book.
+You will see that it retains state information and you are back at the portrait focus/details frame for your selected book.
 ![lab7-5](https://user-images.githubusercontent.com/89549679/159746926-8f607f82-684c-490a-b07f-a84886846543.png)
